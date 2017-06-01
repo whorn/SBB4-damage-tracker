@@ -27,8 +27,10 @@ cutOutNumbers - Divide the previous pictures into a set of three boxes (for 1 an
 I did this with about 5 minutes of footage to generate my training data set.
 
 
+———————-
 
 trainingandtesting.py
+
 Purpose: train a classifier and test it vs another video.
 
 For this I modified this code, so I don't know too much about how the whole works thing works.  
