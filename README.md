@@ -1,6 +1,9 @@
 SBB4-damage-tracker
 made by Koji
+
 STILL A WIP
+
+Date: June 1st 2017
 
 My plan was:
 1. Make python read a video file 
@@ -9,6 +12,7 @@ My plan was:
 4. Plot the data
 
 ————————
+
 What the program does:
 
 videotopictures.py 
@@ -38,7 +42,7 @@ videoToImageArray: Takes a video and returns a screenshot of P1 and P2's damage 
 
 imageToDamageArray: Uses the classifier we've trained to translate the screenshots from the previous array into numbers. Uses some extra conditions, to keep the data clean. For example if the interpreted is more than 50% bigger than the previous one, it's just registered as - instead.
 
-plotDMG: plots the data. points labeled "-" are and counts as <<same % as previous second>>
+plotDMG: plots the data. Points labeled "-" are regarded as <<same % as previous second>>
 
 
 
